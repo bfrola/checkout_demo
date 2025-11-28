@@ -126,8 +126,7 @@ export default function Checkout() {
                 <tr>
                   <th>#</th>
                   <th>Product ID</th>
-                  <th>Qty</th>
-                  <th>Raw</th>
+                  <th>Quantity</th>
                 </tr>
               </thead>
               <tbody>
@@ -136,7 +135,6 @@ export default function Checkout() {
                     <td>{idx + 1}</td>
                     <td><code>{String(it.id)}</code></td>
                     <td>{it.quantity}</td>
-                    <td><code>{it.raw}</code></td>
                   </tr>
                 ))}
               </tbody>
