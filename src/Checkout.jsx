@@ -89,7 +89,7 @@ export default function Checkout() {
     <section className="checkout">
       <h2>URL Parameters</h2>
       {params.length === 0 ? (
-        <p>No URL parameters found. Try adding some like <code>?products=123:2,456:1&amp;currency=USD</code></p>
+        <p>No URL parameters found.</p>
       ) : (
         <table className="params">
           <thead>
