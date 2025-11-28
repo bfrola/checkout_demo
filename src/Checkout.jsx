@@ -118,7 +118,6 @@ export default function Checkout() {
         <p>No <code>products</code> parameter present.</p>
       ) : (
         <div>
-          <p><strong>Raw value:</strong> <code>{productsParam.raw}</code></p>
           {productsParam.items.length === 0 ? (
             <p>Unable to parse any product items from the <code>products</code> parameter.</p>
           ) : (
