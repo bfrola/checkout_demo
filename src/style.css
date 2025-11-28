@@ -18,3 +18,5 @@ table{width:100%;border-collapse:collapse;margin-top:12px}
 th,td{padding:8px 10px;border-bottom:1px solid #eef2ff;text-align:left}
 th{background:#fbfdff;font-weight:600}
 code{background:#f3f4f6;padding:2px 6px;border-radius:4px;font-family:monospace}
+.params td:nth-child(2), .products td:nth-child(4){max-width:300px;overflow-x:auto}
+.params td:nth-child(2) code, .products td:nth-child(4) code{white-space:nowrap;display:inline-block;max-width:100%}

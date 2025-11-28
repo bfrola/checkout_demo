@@ -126,7 +126,7 @@ export default function Checkout() {
                 <tr>
                   <th>#</th>
                   <th>Product ID</th>
-                  <th>Quantity</th>
+                  <th>Qty</th>
                   <th>Raw</th>
                 </tr>
               </thead>
